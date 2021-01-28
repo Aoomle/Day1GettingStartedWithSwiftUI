@@ -15,7 +15,7 @@ struct ContentView: View {
         
         HStack {
           Text("1")
-          Slider(value: .constant(10))
+          Slider(value: .constant(10), in: 1.0...100.0)
           Text("100")
         }
         
@@ -31,5 +31,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+          .previewLayout(.fixed(width: 538, height: 320))
     }
 }

@@ -15,7 +15,7 @@ struct ContentView: View {
         
         HStack {
           Text("1")
-          Slider(value: .constant(10))
+          Slider(value: .constant(10)) 
           Text("100")
         }
       }

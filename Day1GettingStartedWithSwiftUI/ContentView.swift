@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
       VStack {
-        Text("🎯🎯🎯\nPut the bulleye as close as you can".uppercased())
+        Text("🎯🎯🎯\nPut the bulleye as close as you can to".uppercased())
         Text("89")
         
         HStack {

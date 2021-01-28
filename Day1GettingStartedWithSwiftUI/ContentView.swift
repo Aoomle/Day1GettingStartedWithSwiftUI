@@ -15,8 +15,14 @@ struct ContentView: View {
         
         HStack {
           Text("1")
-          Slider(value: .constant(10)) 
+          Slider(value: .constant(10))
           Text("100")
+        }
+        
+        Button(action: {
+          print("Button was tapped")
+        }) {
+          Text("Hit Me")
         }
       }
     }
